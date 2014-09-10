@@ -1,6 +1,6 @@
 class Feature < ActiveRecord::Base
 
   def is_secure?
-    return false
+    return true
   end
 end
